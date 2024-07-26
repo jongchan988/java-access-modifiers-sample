@@ -1,10 +1,12 @@
 package chapter1;
 
 // chapter 1 public
-// public 만을 사용하여 동작하는 과정을 보여주기 위한 코드를 작성함
 public class Main {
     public static void main(String[] args) {
-        People student = new People("홍길동");
-        System.out.println(student.name);
+        // 홍길동이라는 사람을 생성합니다.
+        People people = new People("홍길동");
+
+        // 생성한 사람의 이름을 출력합니다.
+        System.out.println(people.name);
     }
 }
